@@ -1,1 +1,11 @@
-<p>exercice1 works!</p>
+<p class="awesome-p">
+  Coder c'est vraiment
+  <span [style]="words[currentIndex][1]">
+    {{ words[currentIndex][0] }}
+  </span>
+  !
+</p>
+
+<button (click)="changeWord()">Mais encore ?</button>
+
+<hr />
